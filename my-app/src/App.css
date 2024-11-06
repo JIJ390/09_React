@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'PyeongChangPeace-Bold';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+html {
+  background-color: rgb(2, 0, 114);
+
+  padding: none;
+
+}
+
+.main-section {
+  width: 700px;
+
+  margin: 0 auto;
+  background-color: white;
+
+  height: 100%;
+
+  padding: 100px;
+
+  font-family:'PyeongChangPeace-Bold';
+}
+
+.info {
+  width: 400px;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 10px auto;
+  padding: 10px;
+
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+
+}
+
+
+.count-container {
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 15px;
+
+  margin: 10px auto;
+  padding: 10px;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.count-container .btn {
+  width: 30px;
+  height: 30px;
+  
+  background-color: white;
+
+  border-radius: 5px;
+
+  font-weight: bold;
+  font-size: 20px;
+
+  transition-duration: 0.1s;
+}
+
+.count-container .minus-btn {
+  color: red;
+  border: 2px solid red;
+}
+
+.count-container .minus-btn:hover {
+  background-color: red;
+  color: white;
+}
+
+.count-container .plus-btn {
+  color: green;
+  border: 2px solid green;
+}
+
+.count-container .plus-btn:hover {
+  background-color: green;
+  color: white;
+}
+
+.count-container h1 {
+  width: 50px;
+  height: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
