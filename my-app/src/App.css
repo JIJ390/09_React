@@ -1,12 +1,13 @@
 @font-face {
-  font-family: 'PyeongChangPeace-Bold';
-  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
+    font-family: 'MaruBuriSemiBold';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.woff2) format("woff2"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.ttf) format("truetype");
 }
 
+
+
 html {
-  background-color: rgb(2, 0, 114);
+  background-color: rgb(88, 82, 81);
 
   padding: none;
 
@@ -22,7 +23,7 @@ html {
 
   padding: 100px;
 
-  font-family:'PyeongChangPeace-Bold';
+  font-family:'MaruBuriSemiBold';
 }
 
 .info {
@@ -92,4 +93,10 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+.completed {
+  text-decoration: line-through;
+  /* 글자 가운데 삭제선 */
 }
